@@ -1,0 +1,9 @@
+C:\Users\kscov\source\repos\KS_Life3D\bin\Debug\KS_Life3D.exe.config
+C:\Users\kscov\source\repos\KS_Life3D\bin\Debug\KS_Life3D.exe
+C:\Users\kscov\source\repos\KS_Life3D\bin\Debug\KS_Life3D.pdb
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.csprojAssemblyReference.cache
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.Form1.resources
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.Properties.Resources.resources
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.csproj.GenerateResource.cache
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.exe
+C:\Users\kscov\source\repos\KS_Life3D\obj\Debug\KS_Life3D.pdb
