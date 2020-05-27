@@ -64,9 +64,9 @@
             this.zaPomocaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zaPomocąIndeksyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.nowyPanel1 = new KS_Life3D.NowyPanel();
             this.labelTick = new System.Windows.Forms.Label();
             this.labelTickiPorownanie = new System.Windows.Forms.Label();
+            this.nowyPanel1 = new KS_Life3D.NowyPanel();
             this.przybornik.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTimer)).BeginInit();
@@ -457,7 +457,7 @@
             this.zaPomocaToolStripMenuItem,
             this.zaPomocąIndeksyToolStripMenuItem});
             this.wyświetlanieToolStripMenuItem.Name = "wyświetlanieToolStripMenuItem";
-            this.wyświetlanieToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wyświetlanieToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.wyświetlanieToolStripMenuItem.Text = "Wyświetlanie";
             // 
             // zaPomocaToolStripMenuItem
@@ -479,18 +479,6 @@
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // nowyPanel1
-            // 
-            this.nowyPanel1.BackColor = System.Drawing.Color.Black;
-            this.nowyPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nowyPanel1.Location = new System.Drawing.Point(116, 24);
-            this.nowyPanel1.Name = "nowyPanel1";
-            this.nowyPanel1.Size = new System.Drawing.Size(684, 522);
-            this.nowyPanel1.TabIndex = 2;
-            this.nowyPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.nowyPanel1_Paint);
-            this.nowyPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseDown);
-            this.nowyPanel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseMove);
-            // 
             // labelTick
             // 
             this.labelTick.AutoSize = true;
@@ -507,6 +495,18 @@
             this.labelTickiPorownanie.Name = "labelTickiPorownanie";
             this.labelTickiPorownanie.Size = new System.Drawing.Size(0, 13);
             this.labelTickiPorownanie.TabIndex = 4;
+            // 
+            // nowyPanel1
+            // 
+            this.nowyPanel1.BackColor = System.Drawing.Color.Black;
+            this.nowyPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.nowyPanel1.Location = new System.Drawing.Point(116, 24);
+            this.nowyPanel1.Name = "nowyPanel1";
+            this.nowyPanel1.Size = new System.Drawing.Size(684, 522);
+            this.nowyPanel1.TabIndex = 2;
+            this.nowyPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.nowyPanel1_Paint);
+            this.nowyPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseDown);
+            this.nowyPanel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseMove);
             // 
             // Form1
             // 
