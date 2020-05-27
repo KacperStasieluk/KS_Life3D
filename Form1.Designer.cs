@@ -60,8 +60,13 @@
             this.numericUpDownPrzezywaDo = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.symulacjaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wyświetlanieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zaPomocaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zaPomocąIndeksyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.nowyPanel1 = new KS_Life3D.NowyPanel();
+            this.labelTick = new System.Windows.Forms.Label();
+            this.labelTickiPorownanie = new System.Windows.Forms.Label();
             this.przybornik.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTimer)).BeginInit();
@@ -440,9 +445,34 @@
             // 
             // symulacjaToolStripMenuItem
             // 
+            this.symulacjaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.wyświetlanieToolStripMenuItem});
             this.symulacjaToolStripMenuItem.Name = "symulacjaToolStripMenuItem";
             this.symulacjaToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.symulacjaToolStripMenuItem.Text = "Symulacja";
+            // 
+            // wyświetlanieToolStripMenuItem
+            // 
+            this.wyświetlanieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.zaPomocaToolStripMenuItem,
+            this.zaPomocąIndeksyToolStripMenuItem});
+            this.wyświetlanieToolStripMenuItem.Name = "wyświetlanieToolStripMenuItem";
+            this.wyświetlanieToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wyświetlanieToolStripMenuItem.Text = "Wyświetlanie";
+            // 
+            // zaPomocaToolStripMenuItem
+            // 
+            this.zaPomocaToolStripMenuItem.Name = "zaPomocaToolStripMenuItem";
+            this.zaPomocaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zaPomocaToolStripMenuItem.Text = "Za pomocą: Sort ";
+            this.zaPomocaToolStripMenuItem.Click += new System.EventHandler(this.zaPomocaToolStripMenuItem_Click);
+            // 
+            // zaPomocąIndeksyToolStripMenuItem
+            // 
+            this.zaPomocąIndeksyToolStripMenuItem.Name = "zaPomocąIndeksyToolStripMenuItem";
+            this.zaPomocąIndeksyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zaPomocąIndeksyToolStripMenuItem.Text = "Za pomocą: Indeksy";
+            this.zaPomocąIndeksyToolStripMenuItem.Click += new System.EventHandler(this.zaPomocąIndeksyToolStripMenuItem_Click);
             // 
             // timer1
             // 
@@ -461,11 +491,30 @@
             this.nowyPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseDown);
             this.nowyPanel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.nowyPanel1_MouseMove);
             // 
+            // labelTick
+            // 
+            this.labelTick.AutoSize = true;
+            this.labelTick.Location = new System.Drawing.Point(118, 6);
+            this.labelTick.Name = "labelTick";
+            this.labelTick.Size = new System.Drawing.Size(30, 13);
+            this.labelTick.TabIndex = 3;
+            this.labelTick.Text = "Ticki";
+            // 
+            // labelTickiPorownanie
+            // 
+            this.labelTickiPorownanie.AutoSize = true;
+            this.labelTickiPorownanie.Location = new System.Drawing.Point(517, 6);
+            this.labelTickiPorownanie.Name = "labelTickiPorownanie";
+            this.labelTickiPorownanie.Size = new System.Drawing.Size(0, 13);
+            this.labelTickiPorownanie.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 546);
+            this.Controls.Add(this.labelTickiPorownanie);
+            this.Controls.Add(this.labelTick);
             this.Controls.Add(this.nowyPanel1);
             this.Controls.Add(this.przybornik);
             this.Controls.Add(this.menuStrip1);
@@ -532,6 +581,11 @@
         private System.Windows.Forms.NumericUpDown numericUpDownTimer;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button buttonKrok;
+        private System.Windows.Forms.ToolStripMenuItem wyświetlanieToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zaPomocaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zaPomocąIndeksyToolStripMenuItem;
+        private System.Windows.Forms.Label labelTick;
+        private System.Windows.Forms.Label labelTickiPorownanie;
     }
 }
 
